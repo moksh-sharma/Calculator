@@ -22,9 +22,9 @@
 
 }
 
-.calculator input:hover {
+.calculator .btn:hover,
+form input.equal:hover {
     background: #ffffff;
-
     color: #000000;
     align-items: center;
     transition: all 0.5s;
@@ -51,6 +51,8 @@ form .display {
     display: flex;
     justify-content: flex-end;
     margin: 20px 0px;
+    background-color: grey;
+    border-radius: 5px;
 
 }
 
